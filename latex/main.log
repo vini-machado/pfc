@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.27)  28 FEB 2023 08:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.8)  8 MAR 2023 23:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/vinicius.machado_ze/Documents/PFC/PFC/main.tex
-(c:/Users/vinicius.machado_ze/Documents/PFC/PFC/main.tex
+**c:/Users/vinim/Documents/pfc/latex/main.tex
+(c:/Users/vinim/Documents/pfc/latex/main.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (abntex2.cls
 
@@ -12,11 +12,11 @@ LaTeX Warning: You have requested document class `./abntex2',
                but the document class provides `abntex2'.
 
 Document Class: abntex2 <CURRENT_DATE> v<VERSION> abnTeX2
-(C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
 Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
-(C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
@@ -25,14 +25,14 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \xlvchars=\skip49
 \@memcnta=\count186
 \c@@memmarkcntra=\count187
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \stockheight=\dimen138
 \stockwidth=\dimen139
 \trimtop=\skip50
 \trimedge=\skip51
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
 File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 )
 \binding=\skip52
@@ -122,7 +122,7 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \beforePoemTitleskip=\skip112
 \midPoemTitleskip=\skip113
 \afterPoemTitleskip=\skip114
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen145
 \ar@mcellbox=\box51
@@ -131,11 +131,11 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \extratabsurround=\skip115
 \backup@length=\skip116
 \ar@cellbox=\box52
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen147
 \TX@old@table=\dimen148
@@ -294,7 +294,7 @@ LaTeX Info: Redefining \emph on input line 7663.
 \c@sheetsequence=\count303
 \c@lastsheet=\count304
 \c@lastpage=\count305
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
@@ -338,40 +338,40 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count310
@@ -379,17 +379,17 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen185
 \Hy@linkcounter=\count311
 \Hy@pagecounter=\count312
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count313
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -402,15 +402,15 @@ Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count314
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen186
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count315
@@ -423,7 +423,7 @@ Package hyperref Info: backreferencing OFF on input line 6042.
 Package hyperref Info: Link coloring OFF on input line 6047.
 Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -432,23 +432,23 @@ package with kernel methods
 \c@Hfootnote=\count318
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count319
 \c@bookmark@seq@number=\count320
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip189
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
 Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
 
 Redoing nameref's sectioning
@@ -456,26 +456,26 @@ Redoing nameref's label
 LaTeX Info: Redefining \nameref on input line 106.
 \c@memhycontfloat=\count321
 \c@Hpagenote=\count322
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count323
-)) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+)) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/10/04 3.81 The Babel package
 \babel@savecnt=\count324
 \U@D=\dimen189
 \l@unhyphenated=\language79
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count325
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -483,15 +483,15 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
-)) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+)) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip190
 \enit@outerparindent=\dimen190
@@ -499,7 +499,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box56
 \enit@count@id=\count326
 \enitdp@description=\count327
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count328
 \calc@Bcount=\count329
@@ -546,7 +546,7 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \ABNTEXsignwidth=\skip197
 \ABNTEXsignthickness=\skip198
 \ABNTEXsignskip=\skip199
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -580,39 +580,39 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen193
 \Gin@req@width=\dimen194
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
 \MT@toks=\toks28
 \MT@tempbox=\box57
@@ -624,18 +624,18 @@ LaTeX Info: Redefining \textls on input line 1234.
 \MT@outer@kern=\dimen195
 LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
 \MT@listname@count=\count340
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
 \MT@outer@space=\skip256
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
-)) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+)) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen196
 \ESO@tempdimb=\dimen197
@@ -643,7 +643,7 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \AM@pagewidth=\dimen198
 \AM@pageheight=\dimen199
 \AM@fboxrule=\dimen256
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count341
@@ -654,9 +654,9 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks31
 \c@AM@survey=\count343
 \AM@templatesizebox=\box59
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-09-28 L3 programming layer (loader) 
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box60
@@ -667,38 +667,38 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count345
 \l__lipsum_a_int=\count346
 \l__lipsum_b_int=\count347
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (abntex2cite.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (abntex2cite.sty
 
 LaTeX Warning: You have requested package `./abntex2cite',
                but the package provides `abntex2cite'.
 
 Package: abntex2cite <CURRENT_DATE> v<VERSION> abnTeX2
-(C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
+(C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
 \minimumbiblabelwidth=\skip257
 \ABCIauxlen=\skip258
 \c@ABCIaux=\count348
 \c@ABCImax=\count349
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip259
 LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 862.
+LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks32
 ) (abntex2ime.sty
 Package: abntex2ime 2019/28/05 Criacao desta customizacao do abnTeX2
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems.sty (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofitems.tex
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems.sty (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofitems.tex
 \loi_cnt_foreach_nest=\count350
 \loi_nestcnt=\count351
 )
 Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified sep char (CT)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count352
@@ -713,7 +713,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen263
 \Gm@layoutvoffset=\dimen264
 \Gm@dimlist=\toks33
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))) (dados.tex)
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))) (dados.tex)
 Package hyperref Info: Option `colorlinks' set `true' on input line 98.
 \c@quadro=\count355
 \c@loqdepth=\count356
@@ -749,7 +749,7 @@ LaTeX Font Info:    ... okay on input line 150.
 Package hyperref Info: Link coloring ON on input line 150.
 \myptabbox=\box61
 \myptabboxwidth=\skip263
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count357
 \scratchdimen=\dimen265
@@ -762,10 +762,10 @@ Package hyperref Info: Link coloring ON on input line 150.
 \MPnumerator=\count361
 \makeMPintoPDFobject=\count362
 \everyMPtoPDFconversion=\toks35
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 150.
@@ -783,13 +783,13 @@ LaTeX Info: Redefining \showhyphens on input line 150.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+) (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -855,7 +855,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 167.
-(C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+(C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -865,7 +865,7 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1
 
 
-{C:/Users/vinicius.machado_ze/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/vinim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 176--176
 
  []
@@ -876,19 +876,19 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 176--176
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 176.
-(C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+(C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 176.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 176.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 176.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -942,7 +942,7 @@ l.176
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 185.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+ (C:\Users\vinim\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -991,69 +991,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]) (main.toc) [14
 
-] [15] (exemplo-intro.tex) (exemplo-cap-01.tex [16
+] (exemplo-intro.tex) (main.bbl [15
 
-
-]
-Package epstopdf Info: Source file: <img/artigo1.eps>
-(epstopdf)                    date: 2023-02-27 19:58:20
-(epstopdf)                    size: 36909 bytes
-(epstopdf)             Output file: <img/artigo1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-27 19:58:20
-(epstopdf)                    size: 35195 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=img/artigo1-eps-converted-to.pdf img/artigo1.eps>
-(epstopdf)             \includegraphics on input line 14.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./img/artigo1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/artigo1-eps-converted-to.pdf, id=213, 481.8pt x 377.41pt>
-File: img/artigo1-eps-converted-to.pdf Graphic file (type pdf)
-<use img/artigo1-eps-converted-to.pdf>
-Package pdftex.def Info: img/artigo1-eps-converted-to.pdf  used on input line 14.
-(pdftex.def)             Requested size: 181.99722pt x 142.56499pt.
-[17
-
-] [18 <./img/artigo1-eps-converted-to.pdf>]) (exemplo-cap-02.tex [19]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5.
- (C:\Users\vinicius.machado_ze\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [20
-
-]) (exemplo-conclusao.tex [21
-
-]) (main.bbl [22
 
 ]
 bibitemlist
-[23
+) (main.ind) [16
 
-]) [24] (exemplo-apendice.tex [25
-
-
-] [26
-
-] [27
-
-]) [28
-
-] (exemplo-anexo.tex [29
-
-
-] [30] [31
-
-] [32
-
-] [33
-
-]) [34
-
-] (main.ind) [35]
+]
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1068,17 +1013,17 @@ bibitemlist
 
  (main.aux) ) 
 Here is how much of TeX's memory you used:
- 19340 strings out of 475385
- 323749 string characters out of 2770299
- 831617 words of memory out of 3000000
- 40030 multiletter control sequences out of 15000+600000
- 554525 words of font info for 174 fonts, out of 8000000 for 9000
+ 18997 strings out of 475385
+ 315003 string characters out of 2776908
+ 819027 words of memory out of 3000000
+ 39863 multiletter control sequences out of 15000+600000
+ 546156 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,1627b,703s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/vinicius.machado_ze/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (36 pages, 472855 bytes).
+ 87i,12n,91p,1036b,620s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/vinim/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (17 pages, 309154 bytes).
 PDF statistics:
- 560 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 49942 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 47225 words of extra memory for PDF output out of 51595 (max. 10000000)
 

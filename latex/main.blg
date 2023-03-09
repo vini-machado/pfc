@@ -4,7 +4,7 @@ The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
-The style file: abntex2-num.bst
+The style file: abntex2-alf.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -21,48 +21,48 @@ Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-num.bst versão v-1.9.7           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 20 entries,
+You've used 5 entries,
             6714 wiz_defined-function locations,
-            1328 strings with 12937 characters,
-and the built_in function-call counts, 24552 in all, are:
-= -- 3006
-> -- 348
-< -- 582
-+ -- 780
-- -- 107
-* -- 1493
-:= -- 3015
-add.period$ -- 85
-call.type$ -- 20
-change.case$ -- 169
-chr.to.int$ -- 29
-cite$ -- 18
-duplicate$ -- 2320
-empty$ -- 1097
-format.name$ -- 558
-if$ -- 5077
-int.to.chr$ -- 4
+            1225 strings with 9898 characters,
+and the built_in function-call counts, 4523 in all, are:
+= -- 590
+> -- 33
+< -- 92
++ -- 140
+- -- 11
+* -- 257
+:= -- 598
+add.period$ -- 12
+call.type$ -- 5
+change.case$ -- 26
+chr.to.int$ -- 14
+cite$ -- 3
+duplicate$ -- 365
+empty$ -- 245
+format.name$ -- 46
+if$ -- 973
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 324
-newline$ -- 103
-num.names$ -- 64
-pop$ -- 378
+missing$ -- 68
+newline$ -- 25
+num.names$ -- 10
+pop$ -- 75
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 15
 quote$ -- 0
-skip$ -- 2555
+skip$ -- 466
 stack$ -- 1
-substring$ -- 1079
-swap$ -- 856
-text.length$ -- 17
+substring$ -- 219
+swap$ -- 141
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 25
+type$ -- 0
 warning$ -- 0
-while$ -- 106
+while$ -- 21
 width$ -- 0
-write$ -- 264
+write$ -- 61
