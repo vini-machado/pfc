@@ -2,6 +2,7 @@ function [concentration_per_volume, mp] = concentration_1D(data_inputs, dimensio
 
     d = data_inputs;
     mp = mesh_points(dimension_number_of_points);
+    [mp.x_number_of_points, mp.t_number_of_points]
 
     %% Iniciando o vetor de Concentração
     concentration_per_volume = zeros(mp.x_number_of_points, mp.t_number_of_points);

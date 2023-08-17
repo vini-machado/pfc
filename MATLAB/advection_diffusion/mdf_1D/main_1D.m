@@ -7,4 +7,4 @@ is_stochastic              = true;
 
 [concentration_per_volume, mp] = concentration_1D(d, dimension_number_of_points, is_stochastic);
 
-plot_1D(mp, concentration_per_volume, d.total_distance)
+plot_1D(d, mp, concentration_per_volume)
