@@ -8,9 +8,11 @@ function [] = plot_1D(data_inputs, mp, concentration_per_volume)
         plot(space,concentration_per_volume(:,j), 'r--o','LineWidth',1.5);
         ylim([0,d.C_x1]);
         grid; 
+
         xlabel('Distância (m)'); 
         ylabel('Concentração (Bq/m³)');
-        title("Tempo de simulação " + num2str(mp.delta_t*j) + " s");
+        title("Tempo de simulação " + num2str(mp.delta_t*j, 2) + " s");
+        
         j = j+1;
     end
 
