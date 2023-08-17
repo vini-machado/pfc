@@ -1,4 +1,4 @@
-function [concentration_per_volume, mp] = concentration_1D(data_inputs, dimension_number_of_points, is_stochastic)
+function [concentration_per_volume, mp] = concentration_1D(data_inputs, dimension_number_of_points)
 
     d = data_inputs;
     mp = mesh_points(dimension_number_of_points);
@@ -10,5 +10,5 @@ function [concentration_per_volume, mp] = concentration_1D(data_inputs, dimensio
     concentration_per_volume(1, :) = d.C_x1; % concentração inicial constante na fonte
 
     %% Utilização do método numérico
-    concentration_per_volume = mdf_explicit(concentration_per_volume, mp, is_stochastic);
+    concentration_per_volume = mdf_explicit(concentration_per_volume, mp, d.is_stochastic);
 end
