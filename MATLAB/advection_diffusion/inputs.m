@@ -1,6 +1,14 @@
 function data = inputs
+    %% Parâmetros de simulação
+    data.spacial_dimensions = 1;
+    data.number_of_points_array = [10, 50, 100, 250, 500];
+    
+    %% Parâmetros do problema
     data.total_distance = 1000;
+    data.total_time = 60; 
+    data.diffusion_coef = 2.11E-5;
 
+    %% Campos de velocidades
     data.permanent_wind_velocity_x = 40;
     data.wind_field_x = @(x, y, t, noise) data.permanent_wind_velocity_x + noise;
     % data.wind_field_x = @(x, y, t, noise) data.permanent_wind_velocity_x *(1 - sin(4*x)^2) + noise;
@@ -12,12 +20,6 @@ function data = inputs
     % data.wind_field_y = @(x, y, t, noise) data.permanent_wind_velocity_y *(1 - cos(4*y)^2) + noise;
     % data.wind_field_y = @(x, y, t, noise) -0.2* (x) / sqrt((x)^2 + (y)^2) + noise;
     % data.wind_field_y = @(x, y, t, noise) data.permanent_wind_velocity_y* (x) / sqrt((x)^2 + (y)^2) + noise;
-
-    data.total_time = 60; 
-    % data.default_time_steps = 
-
-    data.diffusion_coef = 2.11E-5;
-    data.steady_state = false;
 
     %% Parâmetros de estabilidade
     data.peclet = 2;
@@ -34,6 +36,7 @@ function data = inputs
     data.source_y = data.source_x;
 
     %% Parâmetro estocástico
+    data.is_stochastic = true;
     data.normal_distribution = makedist('Normal');
     data.stochastic_relevance = 1E-4;
 end
