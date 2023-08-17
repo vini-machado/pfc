@@ -4,14 +4,15 @@ function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochast
 
     noise = 0;
     if is_stochastic
-        noise = additive_noise('x', mp);
+        nd = normal_distribution;
+        wiener = wiener_process('x', mp);
     end
 
     %% Raciocine com a matriz Ax=b
 
     %% Coeficientes utilizados
     Aw = (- d.fourier - d.courant);
-    Ap = (1 + d.courant + 2*d.fourier) + noise;
+    Ap = (1 + d.courant + 2*d.fourier);
     Ae = (- d.fourier);
 
     %% Criando a matriz quadrada principal (A)
@@ -21,8 +22,12 @@ function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochast
     main_matrix(mp.x_number_of_points, mp.x_number_of_points)    = 1;
 
     for i = 2:mp.x_number_of_points - 1
+        if is_stochastic
+            noise = random(nd)*wiener;
+        end
+
         main_matrix(i, i-1) = Aw; 
-        main_matrix(i, i)   = Ap; 
+        main_matrix(i, i)   = Ap + noise; 
         main_matrix(i, i+1) = Ae;
     end
 
