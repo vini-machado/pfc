@@ -26,11 +26,11 @@ function C = mdf_explicit_2D(concentration_per_volume, mesh_properties, is_stoch
                 % advection_x = d.wind_field_x(i, t, noise_x)/d.total_distance * (concentration_per_volume(i+1, j, t)                                      - concentration_per_volume(i-1, j, t)) / (2*mp.delta_x); % cds 
                 % advection_y = d.wind_field_y(j, t, noise_y)/d.total_distance * (concentration_per_volume(i, j+1, t)                                      - concentration_per_volume(i, j-1, t)) / (2*mp.delta_y); % cds
                 
-                advection_x = d.wind_field_x(i, j, t, noise_x) * (concentration_per_volume(i, j, t)                                         - concentration_per_volume(i-1, j, t)) / (mp.delta_x);
-                advection_y = d.wind_field_y(i, j, t, noise_y) * (concentration_per_volume(i, j, t)                                         - concentration_per_volume(i, j-1, t)) / (mp.delta_y);
+                advection_x = d.wind_field_x(i, j, t, noise_x)* (concentration_per_volume(i, j, t) - concentration_per_volume(i-1, j, t)) / (mp.delta_x);
+                advection_y = d.wind_field_y(i, j, t, noise_y)* (concentration_per_volume(i, j, t) - concentration_per_volume(i, j-1, t)) / (mp.delta_y);
                 
-                diffusion_x = d.diffusion_coef                 * (concentration_per_volume(i+1, j, t) - 2*concentration_per_volume(i, j, t) + concentration_per_volume(i-1, j, t)) / (mp.delta_x^2);
-                diffusion_y = d.diffusion_coef                 * (concentration_per_volume(i, j+1, t) - 2*concentration_per_volume(i, j, t) + concentration_per_volume(i, j-1, t)) / (mp.delta_y^2);
+                diffusion_x = d.diffusion_coef * (concentration_per_volume(i+1, j, t) - 2*concentration_per_volume(i, j, t) + concentration_per_volume(i-1, j, t)) / (mp.delta_x^2);
+                diffusion_y = d.diffusion_coef * (concentration_per_volume(i, j+1, t) - 2*concentration_per_volume(i, j, t) + concentration_per_volume(i, j-1, t)) / (mp.delta_y^2);
 
                 value = concentration_per_volume(i, j, t) + mp.delta_t * (diffusion_x - advection_x + diffusion_y - advection_y);
                 concentration_per_volume(i, j, t + 1) = value;
@@ -44,9 +44,10 @@ function C = mdf_explicit_2D(concentration_per_volume, mesh_properties, is_stoch
         concentration_per_volume(d.source_x, d.source_y, :) = d.C_x1;
         
         %% tracking de tempo
-        if rem(t,50) == 0
-            t
-        end
+        % if rem(t,50) == 0
+        %     t
+        %     % concentration_per_volume(d.source_x, d.source_y, :) = d.C_x1;
+        % end
 
     end
 
