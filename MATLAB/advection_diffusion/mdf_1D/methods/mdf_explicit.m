@@ -1,4 +1,4 @@
-function C = mdf_explicit(concentration_per_volume, mesh_properties, is_stochastic)
+function [C, effective_dose] = mdf_explicit(concentration_per_volume, effective_dose, mesh_properties, is_stochastic)
     d = inputs;
     mp = mesh_properties;
 
@@ -20,17 +20,20 @@ function C = mdf_explicit(concentration_per_volume, mesh_properties, is_stochast
             advection = d.wind_field_x(i, 0, j, noise) * (                                       concentration_per_volume(i, j-1) - concentration_per_volume(i-1, j-1)) / (mp.delta_x); 
             diffusion = d.diffusion_coef               * (concentration_per_volume(i+1, j-1) - 2*concentration_per_volume(i, j-1) + concentration_per_volume(i-1, j-1)) / (mp.delta_x^2);
 
-            value = concentration_per_volume(i, j -1) + mp.delta_t * (diffusion - advection) + noise;
+            value = concentration_per_volume(i, j -1) + mp.delta_t * (diffusion - advection);
             % concentration_per_volume(i, j) = value_checker(value);
             concentration_per_volume(i, j) = value;
-
+            effective_dose(i, j) = d.activity_concentration*concentration_per_volume(i, j)*d.dose_coefficient*mp.delta_t + effective_dose(i, j-1);
+            
             % Restart noise
             noise = 0;
-
+            
         end
-        if rem(j,50) == 0
-            j
-        end
+        
+        effective_dose(1, j) = effective_dose(2, j);
+        % if rem(j,50) == 0
+        %     j
+        % end
     end
     
     % Condição de contorno 
