@@ -5,7 +5,7 @@ function [] = plot_1D(data_inputs, mp, concentration_per_volume)
     j = 1;
     while j <= mp.t_number_of_points
         figure(1);
-        plot(space,concentration_per_volume(:,j), 'r--o','LineWidth',1.5);
+        plot(space,concentration_per_volume(:,j), 'k--o','LineWidth',1.5);
         ylim([0,d.C_x1]);
         grid; 
 
