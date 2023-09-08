@@ -14,9 +14,9 @@ for i = 1:len
         plot_1D(d, mp, concentration_i, effective_dose_i);
     else
         tic
-        [concentration_i, mp] = concentration_2D(d, number_of_points);
+        [concentration_i, effective_dose_i, mp] = concentration_2D(d, number_of_points);
         toc
 
-        plot_2D(d, mp, concentration_i);
+        plot_2D(d, mp, concentration_i, effective_dose_i);
     end
 end

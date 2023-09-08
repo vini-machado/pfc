@@ -1,4 +1,4 @@
-function C = mdf_explicit_2D(concentration_per_volume, mesh_properties, is_stochastic)
+function [C, effective_dose] = mdf_explicit_2D(concentration_per_volume, effective_dose, mesh_properties, is_stochastic)
     d = inputs;
     mp = mesh_properties;
 
@@ -34,6 +34,8 @@ function C = mdf_explicit_2D(concentration_per_volume, mesh_properties, is_stoch
 
                 value = concentration_per_volume(i, j, t) + mp.delta_t * (diffusion_x - advection_x + diffusion_y - advection_y);
                 concentration_per_volume(i, j, t + 1) = value;
+                effective_dose(i, j, t+1) = d.activity_concentration*concentration_per_volume(i, j, t+1)*d.dose_coefficient*mp.delta_t + effective_dose(i, j, t);
+
                 % concentration_per_volume(i, j, t + 1) = value_checker(value);
 
                 % Restart noise

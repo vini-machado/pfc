@@ -1,8 +1,8 @@
 function data = inputs
     %% Parâmetros de simulação
-    data.spacial_dimensions = 1;
+    data.spacial_dimensions = 2;
     % data.number_of_points_array = [100, 200, 400, 800, 1600];
-    data.number_of_points_array = [400];
+    data.number_of_points_array = [200];
     
     %% Parâmetros do problema
     data.total_distance = 500;
@@ -41,10 +41,10 @@ function data = inputs
     %% Parâmetro estocástico
     data.is_stochastic = true;
     data.normal_distribution = makedist('Normal');
-    data.stochastic_relevance = 1E-4;
+    data.stochastic_relevance = 1E-2;
 
     %% Parâmetro de radioatividade
-    data.activity_concentration = 2.334E+07;
+    data.activity_concentration = 2.334E+07; % Bq/m^3
     data.dose_coefficient = 6.7E-06/3600; % mSv*m^3/Bq/s
     data.annual_exposure  = 3; % mSv
 end
