@@ -18,7 +18,7 @@ function [C, effective_dose] = mdf_explicit_2D(concentration_per_volume, effecti
         for i = 2:mp.x_number_of_points-1
             for j = 2:mp.y_number_of_points-1
 
-                if is_stochastic
+                if is_stochastic && rem(t,10) == 0
                     noise_x = random(nd)*wiener_x;
                     noise_y = random(nd)*wiener_y;
                 end
@@ -46,13 +46,14 @@ function [C, effective_dose] = mdf_explicit_2D(concentration_per_volume, effecti
         concentration_per_volume(d.source_x, d.source_y, :) = d.C_x1;
         
         %% tracking de tempo
-        % if rem(t,50) == 0
-        %     t
-        %     % concentration_per_volume(d.source_x, d.source_y, :) = d.C_x1;
-        % end
+        if rem(t,50) == 0
+            t
+            % concentration_per_volume(d.source_x, d.source_y, :) = d.C_x1;
+        end
 
     end
+    concentration_per_volume(concentration_per_volume < 1E-8) = NaN;
+    effective_dose(effective_dose < 1E-4)                     = NaN;
 
     C = concentration_per_volume;
-
 end
