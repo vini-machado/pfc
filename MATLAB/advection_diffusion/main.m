@@ -8,7 +8,7 @@ for i = 1:len
     
     if d.spacial_dimensions == 1
         tic
-        [concentration_i, effective_dose_i, mp] = concentration_1D(d, number_of_points);
+        [concentration_i, effective_dose_i, mp] = concentration_1D(d, number_of_points, 'implicit');
         toc
 
         plot_1D(d, mp, concentration_i, effective_dose_i);

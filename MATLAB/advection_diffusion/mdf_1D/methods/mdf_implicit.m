@@ -1,4 +1,4 @@
-function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochastic)
+function [C, effective_dose] = mdf_implicit(concentration_per_volume, effective_dose, mesh_properties, is_stochastic)
     d = inputs;
     mp = mesh_properties;
 
@@ -11,9 +11,9 @@ function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochast
     %% Raciocine com a matriz Ax=b
 
     %% Coeficientes utilizados
-    Aw = (- d.fourier - d.courant);
-    Ap = (1 + d.courant + 2*d.fourier);
-    Ae = (- d.fourier);
+    Aw = (- mp.fourier -d.courant);
+    Ap = (1 + d.courant + 2*mp.fourier);
+    Ae = (- mp.fourier);
 
     %% Criando a matriz quadrada principal (A)
     main_matrix = zeros(mp.x_number_of_points);
@@ -27,7 +27,7 @@ function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochast
         end
 
         main_matrix(i, i-1) = Aw; 
-        main_matrix(i, i)   = Ap + noise; 
+        main_matrix(i, i)   = Ap; 
         main_matrix(i, i+1) = Ae;
     end
 
@@ -39,6 +39,7 @@ function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochast
         vector(mp.x_number_of_points) = 0;
 
         concentration_per_volume(:, t) = tdma(main_matrix, vector);
+        effective_dose(:, t) = concentration_per_volume(:, t).*(d.dose_coefficient*mp.delta_t*d.activity_concentration) + effective_dose(:, t-1);
     end
 
     C = concentration_per_volume;

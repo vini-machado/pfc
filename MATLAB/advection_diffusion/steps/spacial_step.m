@@ -1,4 +1,4 @@
-function step_size = spacial_step(dimension, dimension_number_of_points)
+function [step_size, peclet] = spacial_step(dimension, dimension_number_of_points)
     d = inputs;
 
     step_size = d.total_distance/(dimension_number_of_points - 1);
@@ -11,9 +11,5 @@ function step_size = spacial_step(dimension, dimension_number_of_points)
         error 'Dimensão não reconhecida'
     end 
     
-    is_advective_peclet = step_size*wind_velocity/d.diffusion_coef >= d.peclet;
-    
-    if ~is_advective_peclet 
-        error 'Diminua o número de pontos da malha para tornar um problema advectivo'
-    end 
+    peclet = step_size*wind_velocity/d.diffusion_coef
 end
