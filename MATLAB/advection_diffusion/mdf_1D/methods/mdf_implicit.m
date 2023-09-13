@@ -39,7 +39,7 @@ function [C, effective_dose] = mdf_implicit(concentration_per_volume, effective_
         vector(mp.x_number_of_points) = 0;
 
         concentration_per_volume(:, t) = tdma(main_matrix, vector);
-        effective_dose(:, t) = concentration_per_volume(:, t).*(d.dose_coefficient*mp.delta_t*d.activity_concentration) + effective_dose(i, t-1);
+        effective_dose(:, t) = concentration_per_volume(:, t).*(d.dose_coefficient*mp.delta_t*d.activity_concentration) + effective_dose(:, t-1);
     end
 
     C = concentration_per_volume;
