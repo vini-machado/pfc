@@ -1,8 +1,9 @@
 function data = inputs
     %% Parâmetros de simulação
-    data.spacial_dimensions = 2;
+    data.spacial_dimensions = 1;
+    data.method = 'explicit';
     % data.number_of_points_array = [100, 200, 400, 800, 1600];
-    data.number_of_points_array = [200];
+    data.number_of_points_array = [100];
     
     %% Parâmetros do problema
     data.total_distance = 500;
@@ -39,7 +40,7 @@ function data = inputs
     data.source_y = data.source_x;
 
     %% Parâmetro estocástico
-    data.is_stochastic = true;
+    data.is_stochastic = false;
     data.normal_distribution = makedist('Normal');
     data.stochastic_relevance = 1E-2;
 
