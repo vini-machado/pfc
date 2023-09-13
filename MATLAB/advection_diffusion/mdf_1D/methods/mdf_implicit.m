@@ -11,9 +11,9 @@ function C = mdf_implicit(concentration_per_volume, mesh_properties, is_stochast
     %% Raciocine com a matriz Ax=b
 
     %% Coeficientes utilizados
-    Aw = (- d.fourier - d.courant);
-    Ap = (1 + d.courant + 2*d.fourier);
-    Ae = (- d.fourier);
+    Aw = (- mp.fourier -d.courant);
+    Ap = (1 + d.courant + 2*mp.fourier);
+    Ae = (- mp.fourier);
 
     %% Criando a matriz quadrada principal (A)
     main_matrix = zeros(mp.x_number_of_points);
