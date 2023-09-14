@@ -11,5 +11,5 @@ function [step_size, peclet] = spacial_step(dimension, dimension_number_of_point
         error 'Dimensão não reconhecida'
     end 
     
-    peclet = step_size*wind_velocity/d.diffusion_coef
+    peclet = step_size*wind_velocity/d.diffusion_coef;
 end
