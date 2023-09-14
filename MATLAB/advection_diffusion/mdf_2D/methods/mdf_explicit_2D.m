@@ -37,12 +37,6 @@ function [C, effective_dose] = mdf_explicit_2D(concentration_per_volume, effecti
                 value = concentration_per_volume(i, j, t) + mp.delta_t * (diffusion_x - advection_x + diffusion_y - advection_y);
                 concentration_per_volume(i, j, t + 1) = value;
                 effective_dose(i, j, t+1) = d.activity_concentration*concentration_per_volume(i, j, t+1)*d.dose_coefficient*mp.delta_t + effective_dose(i, j, t);
-
-                % concentration_per_volume(i, j, t + 1) = value_checker(value);
-
-                % Restart noise
-                noise_x = 0;
-                noise_y = 0;
             end
         end
         concentration_per_volume(d.source_x, d.source_y, :) = d.C_x1;
@@ -54,7 +48,7 @@ function [C, effective_dose] = mdf_explicit_2D(concentration_per_volume, effecti
         end
 
     end
-    concentration_per_volume(concentration_per_volume < 1E-8) = NaN;
+    concentration_per_volume(concentration_per_volume < 1E-15) = NaN;
     effective_dose(effective_dose < 1E-4)                     = NaN;
 
     C = concentration_per_volume;
