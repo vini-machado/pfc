@@ -1,6 +1,8 @@
-function [] = save_matrix(matrix, number_of_points, method, dimension, is_stochastic)
+function [] = save_matrix(matrix, wind_field, number_of_points, method, dimension, is_stochastic)
     d = inputs;
     
+    %% concentration matrix
+
     s = "";
     if is_stochastic
         sr = num2str(floor(log10(d.stochastic_relevance)));
@@ -8,11 +10,16 @@ function [] = save_matrix(matrix, number_of_points, method, dimension, is_stocha
     end
 
     if dimension == 1
-        dim = "1D/";
+        dim = "exports/1D/";
     else
-        dim = "2D/";
+        dim = "exports/2D/";
     end
 
-    filename = "exports/" + dim + s + num2str(number_of_points) + "_" + method + ".csv";
-    writematrix(matrix, filename)
+    concentration_filename = dim + s + num2str(number_of_points) + "_" + method + ".csv";
+    writematrix(matrix, concentration_filename)
+
+    %% wind field matrix
+    wind_field_filename =  dim + "wind_field/" + s + num2str(number_of_points) + "_" + method + ".csv";
+    writematrix(wind_field, wind_field_filename)
+
 end
