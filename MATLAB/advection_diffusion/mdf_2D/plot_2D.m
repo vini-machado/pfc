@@ -14,7 +14,12 @@ function [] = plot_2D(data_inputs, mp, concentration_per_volume, effective_dose,
         hold on 
         
         arrows(wind_field, max_concentration, t, d, mp)
-        legend('Concentração (Bq/m^3)', "Direção do vento Determinístico", "Direção do vento estocástico")
+        if d.is_stochastic
+            legend('Concentração (Bq/m^3)', "Direção do vento Determinístico", "Direção do vento estocástico");
+        else
+            legend('Concentração (Bq/m^3)', "Direção do vento Determinístico");
+        end
+
         hold off
 
         nexttile
@@ -22,7 +27,12 @@ function [] = plot_2D(data_inputs, mp, concentration_per_volume, effective_dose,
         hold on
 
         arrows(wind_field, max_dose, t, d, mp)
-        legend('Dose Efetiva Acumulada (mSv)', "Direção do vento Determinístico", "Direção do vento estocástico")
+        if d.is_stochastic
+            legend('Dose Efetiva Acumulada (mSv)', "Direção do vento Determinístico", "Direção do vento estocástico");
+        else
+            legend('Dose Efetiva Acumulada (mSv)', "Direção do vento Determinístico");
+        end
+
         hold off
 
         pause(.05)    
